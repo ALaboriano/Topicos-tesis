@@ -9,7 +9,7 @@ Este video tiene una duración de 57'16'', loc cual convertido a segundos da una
 En el código desarrollado se implementa una lógica que utiliza la data dada en el archivo **train.csv** y lo toma como guía para crear la estructura del directorio dónde se almacenan la imágenes.
 
 Estructura directorio  
- ![Getting Started](DFL-BundesligaDataShootout/capturas/directorio_test2.jpg)
+ ![image](../capturas/directorio_test2.JPG)
 
  La raíz del directorio creado es imagenes y dentro de ella se tiene una carpeta para cada una de las clases de jugadas de fútbol (play, challenge, throwin), dónde se almacenarán la imágenes del segundo que coincidan con las anotaciones dadas en el archivo **train.csv**. Como en el video hay muchos segundos en los que no hay una jugada específica etiquetada, las imágenes recuperadas en estos casos se almacenarán la carpeta de background.
 
@@ -112,4 +112,4 @@ if __name__ == '__main__':
  ### Validación.
  - Se debería extraer 3,436 imágenes más una del segundo 0 (Se extrajo 2,548 imágenes en background, 132 imágenes en challenge, 704 imágenes en play y 53 imágenes en throwin).  
  - En el archivo en **train.csv** para este video se encuentran la siguiente distribución de las clases:
-  ![Getting Started](../capturas/nro_img_play.jpg)
+  ![Getting Started](../capturas/nro_img_play.JPG)
