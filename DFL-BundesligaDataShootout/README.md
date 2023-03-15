@@ -30,3 +30,17 @@
 	●	**Opponent dispossessed =  Recuperación del balón**. Un jugador que no tiene el balón le quita al otro que lo posee.   
 	●	**Challenge during release of the ball = Despejes o bloques**. Se da cuando un jugador que no posee el balón lo intercepta o lo despeja.    
 	●	**Possession retained during challenge = Retenciones de balón**. Se da cuando el jugador que posee el balón en una jugada de juego abierto no mueve el balón por un instante prolongado.
+
+**5. Descripción de scripts**  
+- ***1. Data download.ipynb***   
+Código para descargar la data y almacenar en Google Drive 
+- ***2. Data Understand.ipynb***   
+Análisis exploratorio de la data, con el fin de entender la distribución de los eventos etiquetados en cada video.
+- ***3. Image_Annotation.ipynb***  
+Obtener una imagen por segundo de cada uno de los videos de entrenamiento, y almacenarlas en una carpeta dependiendo de la acción que ocurre en dicho segundo.
+- ***Resumen Kaggle Competition.docx***   
+Breve descripción de la competencia de Kaggle.
+- ***tests***  
+Carpeta dónde se almacena los scripts de validación de los procesos implementados.
+- ***capturas***  
+Imágenes auxiliares que sirven para la documentación.
